@@ -1,4 +1,6 @@
+cat << 'EOF' > .gitignore
 node_modules/
 dist/
 .env
 .agent_memory.json
+EOF

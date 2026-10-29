@@ -1,3 +1,4 @@
+cat << 'EOF' > src/core/engine.ts
 import { PersistentMemory } from "./memory";
 import { Agent } from "./agent";
 import { ProactiveHeartbeat } from "../proactive/heartbeat";
@@ -50,3 +51,4 @@ export class AgenticOS {
     this.heartbeat.startHeartbeat(15000);
   }
 }
+EOF

@@ -1,3 +1,4 @@
+cat << 'EOF' > src/core/agent.ts
 import { Logger } from "../utils/logger";
 import { PersistentMemory } from "./memory";
 import { WebSearchEngine, SearchResult } from "../search/webSearch";
@@ -32,3 +33,4 @@ export class Agent {
     return result;
   }
 }
+EOF

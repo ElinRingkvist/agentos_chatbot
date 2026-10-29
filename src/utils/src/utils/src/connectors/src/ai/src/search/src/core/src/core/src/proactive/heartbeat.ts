@@ -1,3 +1,4 @@
+cat << 'EOF' > src/proactive/heartbeat.ts
 import { Logger } from "../utils/logger";
 import { PersistentMemory } from "../core/memory";
 import { Agent } from "../core/agent";
@@ -38,3 +39,4 @@ export class ProactiveHeartbeat {
     );
   }
 }
+EOF

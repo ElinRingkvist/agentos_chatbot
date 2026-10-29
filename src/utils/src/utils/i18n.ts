@@ -1,3 +1,4 @@
+cat << 'EOF' > src/utils/i18n.ts
 export type SupportedLanguage = "sv" | "en" | "es" | "fr" | "de";
 
 export class I18n {
@@ -54,3 +55,4 @@ export class I18n {
     return langDict[key] || key;
   }
 }
+EOF

@@ -1,3 +1,4 @@
+cat << 'EOF' > src/core/memory.ts
 import * as fs from "fs";
 import * as path from "path";
 import { Logger } from "../utils/logger";
@@ -66,3 +67,4 @@ export class PersistentMemory {
     return this.entries.map((e) => `[${e.category.toUpperCase()}] ${e.content}`).join("\n");
   }
 }
+EOF
