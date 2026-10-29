@@ -1,0 +1,25 @@
+/
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
+├── waitlist-landing/
+│   └── index.html
+└── src/
+    ├── index.ts
+    ├── core/
+    │   ├── engine.ts
+    │   ├── memory.ts
+    │   └── agent.ts
+    ├── proactive/
+    │   └── heartbeat.ts
+    ├── search/
+    │   └── webSearch.ts
+    ├── connectors/
+    │   └── mausBot.ts
+    ├── ai/
+    │   └── huggingFace.ts
+    └── utils/
+        ├── i18n.ts
+        └── logger.ts
+        
