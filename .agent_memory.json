@@ -1,0 +1,20 @@
+[
+  {
+    "id": "init-1",
+    "category": "preference",
+    "content": "User prefers offline-first, multi-language execution with local GUI automation and HuggingFace LLMs.",
+    "timestamp": "2026-10-29T20:57:00.354Z"
+  },
+  {
+    "id": "mem-1793307423562",
+    "category": "history",
+    "content": "Task executed by WebResearcher: Sök efter senaste trenderna inom offline AI-agenter på internet",
+    "timestamp": "2026-10-29T20:57:03.562Z"
+  },
+  {
+    "id": "mem-1793307424364",
+    "category": "history",
+    "content": "Task executed by DevBot: Bygg lokal anslutning för Cursor och filsystemet.",
+    "timestamp": "2026-10-29T20:57:04.364Z"
+  }
+]
